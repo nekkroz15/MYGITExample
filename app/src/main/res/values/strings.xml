@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MY GIT Example</string>
     <string name="next_button">Next</string>
+    <string name="back_button">Back</string>
 </resources>

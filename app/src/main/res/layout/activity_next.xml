@@ -10,11 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="pt.ipleiria.estg.dei.mygitexample.NextActivity">
 
-    <TextView
-        android:text="@string/app_name"
+    <Button
+        android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/textView" />
+        android:id="@+id/button3"
+        tools:text="@string/back_button"
+        android:onClick="onClickBack" />
 </RelativeLayout>
